@@ -69,6 +69,6 @@
 
 // ======= Conditions ternaires =======
 
-let x = 2;
+// let x = 2;
 
-x > 5 ? console.log(x + " est superieur a 5") : console.log(x +" est inferieur a 5")
+// x > 5 ? console.log(x + " est superieur a 5") : console.log(x +" est inferieur a 5")
