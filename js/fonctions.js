@@ -49,3 +49,16 @@
 // A renseigner sur une seule ligne
 // (function(){ console.log("Je suis une fonction anonyme") })();
 
+// ====== Fonctions recursives ======
+
+// On appel une fonction a l'interieur d'elle meme
+// function timer(secondes) {
+//     if (secondes > 0) {
+//         console.log(secondes)
+//         timer(secondes - 1)
+//     }else {
+//         console.log(secondes);
+//     }
+// }
+
+// timer(10);
