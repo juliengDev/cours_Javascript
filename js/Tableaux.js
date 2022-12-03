@@ -126,3 +126,23 @@
 
 //  monSecondTableau2d.splice(2,0,['Facebook','Amazon','Microsoft']); // Ajoute un tableau a l index 2
 //  console.log(monSecondTableau2d) // Affiche ['Facebook','Amazon','Microsoft'] a l'index 2
+
+
+// ==================Concatener une tableau associatif ==================
+
+
+// let monTableauAssociatif2 = {
+//     'prenom' : 'Mark',
+//     'nom'    : 'Zuckerberg',
+//     'poste'  : 'CEO de Facebook'
+// }
+
+// function concatener(tableau) {
+// let chaine= '';
+// for (const valeur in tableau) {
+
+//     chaine += (valeur + ' : ' + tableau[valeur] + '\n')
+//     };
+//     console.log(chaine)
+// }
+// concatener(monTableauAssociatif2)

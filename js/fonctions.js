@@ -37,7 +37,7 @@
 // nombreEnString = nombre.toString()
 // console.log(typeof nombreEnString); // renvoi string
 
-// Les fonctions anonymes
+// ============ Les fonctions anonymes ============
 
 // Premiere methode
 // let fonctionAnonyme = function() {
@@ -49,7 +49,10 @@
 // A renseigner sur une seule ligne
 // (function(){ console.log("Je suis une fonction anonyme") })();
 
-// ====== Fonctions recursives ======
+
+
+
+// =========== Fonctions recursives ============
 
 // On appel une fonction a l'interieur d'elle meme
 // function timer(secondes) {
@@ -62,3 +65,26 @@
 // }
 
 // timer(10);
+
+// ============ Fonctions flechees ============
+
+// let maFonction = () => console.log('test')
+// maFonction()
+
+
+// ============ Les fermetures (closures) ============
+
+// function timer() {
+//     let secondes = 0;
+
+//     let maClosure = () => {
+//         return ++secondes;
+//     }
+//     return maClosure; 
+//     // la fonction closure permet  d'enregistrer le resultat de la fonction dans une variable
+// }
+
+// let monTimer = timer();
+// console.log(monTimer()) // Affiche 1
+// console.log(monTimer()) // Affiche 1
+// console.log(monTimer()) // Affiche 1
