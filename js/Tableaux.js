@@ -146,3 +146,17 @@
 //     console.log(chaine)
 // }
 // concatener(monTableauAssociatif2)
+
+
+// ================== L'affectation par decomposition ==================
+
+// let informations = ['superSayen', '25', 'homme']
+
+// sans decomposition
+// let pseudo  = informations[0];
+// let age     = informations[1];
+// let sexe    = informations[2];
+
+// avec decomposition
+
+// let [pseudo, age , sexe] = informations;
