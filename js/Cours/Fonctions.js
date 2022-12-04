@@ -88,3 +88,19 @@
 // console.log(monTimer()) // Affiche 1
 // console.log(monTimer()) // Affiche 1
 // console.log(monTimer()) // Affiche 1
+
+
+// ============ le REST parameter ============
+
+// function addition(...nombres) { // les ... indiquent a la javascript que c'est un rest parameter
+    
+//         let resultat = 0;
+//     nombres.forEach( (nombre) => {
+//         resultat =+ nombre;
+//     });
+//     console.log(resultat)
+// }
+// addition(4,5,6,7,8,89)
+
+
+// ============ 

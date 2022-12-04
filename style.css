@@ -1,9 +1,28 @@
 
 
-p:first-child {
-    font-size: 1.3em;
-    font-style: italic;
-    font-weight: 600;
-    color: lightcoral
-    
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  background-color: #ececeb;
+}
+​
+header {
+  background-color: #c9d1d3;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+​
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.title {
+  font-style: italic;
+}
+.ma_class {
+  background: #e65c00;
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);
+background: linear-gradient(to right, #F9D423, #e65c00);
 }

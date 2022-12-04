@@ -152,11 +152,26 @@
 
 // let informations = ['superSayen', '25', 'homme']
 
-// sans decomposition
+// Sans decomposition
 // let pseudo  = informations[0];
 // let age     = informations[1];
 // let sexe    = informations[2];
 
-// avec decomposition
-
+// Avec decomposition
 // let [pseudo, age , sexe] = informations;
+
+// ================== Fusionner plusieurs tableaux ==================
+
+// Methode 1 : utiliser la methode concat()
+// let fruits = ['fraise', 'poire', 'banane']
+// let aliments = ['chocolat','sucre','lait']
+// let total = aliments.concat(fruits)
+
+// console.log(total); // Affiche ['chocolat', 'sucre', 'lait', 'fraise', 'poire', 'banane']
+
+// Methode 2 : utiliser le rest parameter
+
+// let aliments = ['chocolat','sucre','lait', ...fruits];
+// console.log(aliments); // Affiche ['chocolat', 'sucre', 'lait', 'fraise', 'poire', 'banane']
+
+
