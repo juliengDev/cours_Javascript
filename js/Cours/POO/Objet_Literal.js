@@ -22,6 +22,7 @@
 //   console.log(coordonnees.latitude);
 //   console.log(coordonnees.longitude);
 
+// ========================== Cree un objet avec un constructeur personnalise ==========================
 
 // let mark = {
 //   prenom: "Mark", // propriété
@@ -35,7 +36,7 @@
 // }
 
 // On crée une fonction constructeur pour nos utilisateurs
-// function Utilisateur(prenom, nom, email) {
+// function Utilisateur(prenom, nom, email) { 
 //     this.prenom = prenom;
 //     this.nom    = nom;
 //     this.email  = email;
@@ -51,7 +52,9 @@
   
 //   mark.sePresenter();
 //   console.log(mark);
-  
+
+
+//   Ajouter une propriete 
 //   mark.poste = "PDG de Facebook";
   
 //   console.log(mark);
