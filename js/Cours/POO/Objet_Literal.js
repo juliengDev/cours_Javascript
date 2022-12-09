@@ -1,5 +1,5 @@
 // ========================== Cree un objet litteral ==========================
-
+// Souvent utiliser pour transmettre des informations
 
 // let mark = {
 //     prenom: "Mark", // propriété

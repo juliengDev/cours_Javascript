@@ -1,16 +1,16 @@
-let btn = document.querySelector(".spoiler")
-let textBtn = document.querySelector(".spoiler + p")
+// let btn = document.querySelector(".spoiler")
+// let textBtn = document.querySelector(".spoiler + p")
 
 
-btn.addEventListener('click', () => {
+// btn.addEventListener('click', () => {
 
-    if(btn.textContent === 'Afficher') {
-        btn.textContent = 'Cacher'
-        textBtn.textContent = 'Le texte est cache'
-    }else{
-        btn.textContent = 'Afficher'
-        textBtn.textContent = ''
-    }
+//     if(btn.textContent === 'Afficher') {
+//         btn.textContent = 'Cacher'
+//         textBtn.textContent = 'Le texte est cache'
+//     }else{
+//         btn.textContent = 'Afficher'
+//         textBtn.textContent = ''
+//     }
 
-})
+// })
 
